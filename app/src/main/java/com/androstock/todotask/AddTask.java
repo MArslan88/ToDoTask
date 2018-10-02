@@ -22,6 +22,7 @@ import java.util.Locale;
 public class AddTask extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
 
 
+    // Member Variables
     TaskDBHelper mydb;
     DatePickerDialog dpd;
     int startYear = 0, startMonth = 0, startDay = 0;
